@@ -6,7 +6,6 @@
  * Time: 14:21
  */
 
-require_once('./EntityRepository.php');
-class WriteOffRepository
-{
-}
+require_once('./Model/EntityRepository.php');
+class WriteOffRepository extends EntityRepository
+{}

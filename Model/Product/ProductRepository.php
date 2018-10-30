@@ -7,5 +7,5 @@
  */
 
 
-require_once('../EntityRepository.php');
-class ProductRepository{}
+require_once('./Model/EntityRepository.php');
+class ProductRepository extends EntityRepository {}

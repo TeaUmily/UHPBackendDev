@@ -20,7 +20,6 @@ class EntityRepository
             get_class($this)
         );
 
-        //includanje
         require_once($this->className . '.php');
         require_once('./Config/Connection.php');
 

@@ -7,7 +7,7 @@
  */
 
 
-require_once('../Model/EntityRepository.php');
+require_once("./Model/EntityRepository.php");
 class UserRepository extends EntityRepository
 {
 
